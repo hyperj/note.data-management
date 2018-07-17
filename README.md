@@ -8,7 +8,7 @@
 
 • **Data Storage & Operations** – structured physical data assets storage deployment and management \(was Data Operations in the DAMA-DMBOK 1st edition\).
 
-• **Data Security **– ensuring privacy, confidentiality and appropriate access to PII, PHI and an individuals private data. Ensuring network security as well.
+• **Data Security** – ensuring privacy, confidentiality and appropriate access to PII, PHI and an individuals private data. Ensuring network security as well.
 
 • **Data Integration & Interoperability** – acquisition, extraction, transformation, movement, delivery, replication, federation, virtualization and operational support \( a Knowledge Area new in DMBOK2\).
 
