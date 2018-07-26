@@ -1,4 +1,4 @@
-### Data Management Knowledge Areas:
+# Introduction
 
 • **Data Governance** – planning, oversight, and control over management of data and the use of data and data-related resources. While we understand that governance covers ‘processes’, not ‘things’, the common term is Data Governance, and so we will use this term.
 
