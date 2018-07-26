@@ -12,4 +12,7 @@
 * [9. Data Warehousing & Business Intelligence](data-warehousing-and-business-intelligence.md)
 * [10. Metadata](metadata.md)
 * [11. Data Quality](data-quality.md)
+* [------------------------------------------------](undefined.md)
+* [Work & Practice](work-and-practice.md)
+* [Projects & Articles](projects-and-articles.md)
 
