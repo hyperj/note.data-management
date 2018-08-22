@@ -1,6 +1,6 @@
-# 10. Metadata
+# 元数据（Metadata）
 
-### Concept
+## 概念（Concept）
 
 #### 元数据（Meta Data）
 

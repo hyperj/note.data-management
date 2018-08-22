@@ -1,2 +1,2 @@
-# 3. Data Modeling & Design
+# Data Modeling & Design
 

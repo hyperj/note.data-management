@@ -1,2 +1,2 @@
-# 9. Data Warehousing & Business Intelligence
+# Data Warehousing & Business Intelligence
 

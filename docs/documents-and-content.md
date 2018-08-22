@@ -1,2 +1,2 @@
-# 7. Documents & Content
+# Documents & Content
 

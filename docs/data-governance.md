@@ -1,2 +1,2 @@
-# 1. Data Governance
+# Data Governance
 

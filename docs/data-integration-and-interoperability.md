@@ -1,2 +1,2 @@
-# 6. Data Integration & Interoperability
+# Data Integration & Interoperability
 

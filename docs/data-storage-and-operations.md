@@ -1,2 +1,2 @@
-# 4. Data Storage & Operations
+# Data Storage & Operations
 
