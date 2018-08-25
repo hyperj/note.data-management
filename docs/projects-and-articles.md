@@ -37,7 +37,6 @@ Apache Griffin is a Data Quality Service platform built on Apache Hadoop and Apa
 
 > [Site](http://griffin.apache.org/)、[Docs](https://cwiki.apache.org/confluence/display/GRIFFIN/Apache+Griffin)、[Repo](https://github.com/apache/griffin)
 
-
-
 ## Articles
 
+## Reference

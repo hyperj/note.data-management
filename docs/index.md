@@ -10,7 +10,7 @@
 
 • **数据安全（Data Security）** – ensuring privacy, confidentiality and appropriate access to PII, PHI and an individuals private data. Ensuring network security as well.
 
-• **数据集成与交互（Data Integration & Interoperability）** – acquisition, extraction, transformation, movement, delivery, replication, federation, virtualization and operational support ( a Knowledge Area new in DMBOK2).
+• **数据集成与交换（Data Integration & Interoperability）** – acquisition, extraction, transformation, movement, delivery, replication, federation, virtualization and operational support ( a Knowledge Area new in DMBOK2).
 
 • **文档与内容（Documents & Content）** – storing, protecting, indexing, and enabling access to data found in unstructured sources (electronic files and physical records), and making this data available for integration and interoperability with structured (database) data.
 
@@ -22,3 +22,4 @@
 
 • **数据质量（Data Quality）** – defining, monitoring, maintaining data integrity, and improving data quality.
 
+## Reference
