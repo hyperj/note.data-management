@@ -84,20 +84,20 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Data Governance: data-governance.md
-  - Data Architecture: data-architecture.md
-  - Data Modeling & Design: data-modeling-and-design.md
-  - Data Storage & Operations: data-storage-and-operations.md
-  - Data Security: data-security.md
-  - Data Integration & Interoperability: data-integration-and-interoperability.md
-  - Documents & Content: documents-and-content.md
-  - Reference & Master Data: reference-and-master-data.md
-  - Data Warehousing & Business Intelligence: data-warehousing-and-business-intelligence.md
-  - Metadata: metadata.md
-  - Data Quality: data-quality.md
-  - Practice:
-    - Work & Practice: work-and-practice.md
-    - Projects & Articles: projects-and-articles.md
+  - 数据治理: data-governance.md
+  - 数据架构: data-architecture.md
+  - 数据建模与设计: data-modeling-and-design.md
+  - 数据存储与操作: data-storage-and-operations.md
+  - 数据安全: data-security.md
+  - 数据集成与交换: data-integration-and-interoperability.md
+  - 文档与内容: documents-and-content.md
+  - 参考与主数据: reference-and-master-data.md
+  - 数据仓库与商业智能: data-warehousing-and-business-intelligence.md
+  - 元数据: metadata.md
+  - 数据质量: data-quality.md
+  - 实践与参考:
+    - 工作与实践: work-and-practice.md
+    - 项目与参考: projects-and-articles.md
 
 
 # Analytics
