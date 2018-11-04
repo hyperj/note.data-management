@@ -1,12 +1,8 @@
-site_name: Data Management
-theme:
-  name: 'material'
-
 # Project information
 site_name: Data Management
-site_description: Data Management
+site_description: 数据管理（Data Management）
 site_author: HyperJ
-site_url: https://hyperj.github.io/docs.data-management/
+site_url: https://hyperj.net/docs.data-management/
 
 # Repository
 repo_name: hyperj/docs.data-management
@@ -25,7 +21,7 @@ theme:
     - 404.html
 
   # Don't include MkDocs' JavaScript
-  include_search_page: false
+  include_search_page: true
   search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
@@ -33,23 +29,23 @@ theme:
   feature:
     tabs: true
   palette:
-    primary: indigo
-    accent: indigo
+    primary: white
+    accent: amber
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/images/favicon.ico
-  logo: assets/images/favicon.ico
+  favicon: assets/images/hyperj-black.png
+  logo: assets/images/hyperj-black.png
 
 # Customization
 extra:
   social:
     - type: github-alt
-      link: https://gist.github.com/hyperj/
+      link: https://gist.github.com/hyperj
     - type: github
       link: https://github.com/hyperj
     - type: h-square
-      link: http://blog.hyperj.net
+      link: https://hyperj.net
     - type: linkedin
       link: https://www.linkedin.com/in/hyperj
 

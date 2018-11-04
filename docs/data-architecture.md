@@ -2,16 +2,33 @@
 
 ## Architecture
 
+![](assets/images/big-data-pipeline.png)
+
+### Traditional Architecture
+
+![](assets/images/traditional-architecture.png)
+
+### Streaming Architecture
+
+![](assets/images/streaming-architecture.png)
+
 ### Lambda Architecture
+
+![](assets/images/lambda-architecture.png)
 
 ### Kappa Architecture
 
+![](assets/images/kappa-architecture.png)
+
 ### Unified Architecture
+
+![](assets/images/unified-architecture.png)
 
 ### IoT Architecture
 
 ## Reference
 
+- []()
 - [Big Data Architectures(Microsoft)](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/)
 - Big Data Architecture and Patterns Series(IBM):
     * [Part 1: Introduction to big data classification and architecture](http://www.ibm.com/developerworks/analytics/library/bd-archpatterns1/index.html)
