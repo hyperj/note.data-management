@@ -1,14 +1,17 @@
 # 数据安全（Data Security）
 
-## Data States
+## 数据状态（Data States）
 
-### Data At Rest
+- 静态数据（Data At Rest）
+- 传输中数据（Data In Motion/Transit）
+- 使用中数据（Data In Use）
 
-### Data In Motion/Transit
+## 数据安全（Data Security）
 
-### Data In Use
-
-## Data Security
+- Administration
+- Authentication/Authorization
+- Audit
+- Protection
 
 ## Reference
 

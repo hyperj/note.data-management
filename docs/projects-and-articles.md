@@ -2,7 +2,21 @@
 
 ## Projects
 
-### **Apache Atlas -** Data Governance and Metadata framework for Hadoop
+### ACL
+
+### LDAP/AD
+
+### Kerberos
+
+### Apache Ranger
+
+### Apache Knox
+
+### Apache Sentry
+
+### Apache Metron
+
+### **Apache Atlas** Data Governance and Metadata framework for Hadoop
 
 Atlas is a scalable and extensible set of core foundational governance services – enabling enterprises to effectively and efficiently meet their compliance requirements within Hadoop and allows integration with the whole enterprise data ecosystem.
 
