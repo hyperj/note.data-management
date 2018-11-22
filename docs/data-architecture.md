@@ -28,7 +28,6 @@
 
 ## Reference
 
-- []()
 - [Big Data Architectures(Microsoft)](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/)
 - Big Data Architecture and Patterns Series(IBM):
     * [Part 1: Introduction to big data classification and architecture](http://www.ibm.com/developerworks/analytics/library/bd-archpatterns1/index.html)

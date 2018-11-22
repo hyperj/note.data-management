@@ -14,6 +14,12 @@
 
 > 元模型的模型，也被称为本体（Ontology），是模型驱动的元数据集成体系结构的基础
 
+## Data & Log
+
+- Resource：Namespace、Scheme、Table、Column、Data、File、Code
+- Service：Storage、Compute、Schedule
+- Audit：Talent、Group、User
+
 ## Reference
 
 * [Common Warehouse Metamodel](https://en.wikipedia.org/wiki/Common_warehouse_metamodel)
