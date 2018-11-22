@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/hyperj-black.png">
-      <meta name="generator" content="mkdocs-1.0.1, mkdocs-material-3.0.3">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
     
     
       
@@ -60,8 +60,8 @@
       <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
     
     
-      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
       
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
@@ -465,6 +465,54 @@
     Measure Model
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#accuracy" title="Accuracy（准确性）" class="md-nav__link">
+    Accuracy（准确性）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#profiling" title="Profiling（统计信息）" class="md-nav__link">
+    Profiling（统计信息）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#completeness" title="Completeness（完整性）" class="md-nav__link">
+    Completeness（完整性）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timeliness" title="Timeliness（实效性）" class="md-nav__link">
+    Timeliness（实效性）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anomaly-detection" title="Anomaly detection（异常检测）" class="md-nav__link">
+    Anomaly detection（异常检测）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#validity" title="Validity（有效性）" class="md-nav__link">
+    Validity（有效性）
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -558,6 +606,54 @@
     Measure Model
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#accuracy" title="Accuracy（准确性）" class="md-nav__link">
+    Accuracy（准确性）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#profiling" title="Profiling（统计信息）" class="md-nav__link">
+    Profiling（统计信息）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#completeness" title="Completeness（完整性）" class="md-nav__link">
+    Completeness（完整性）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timeliness" title="Timeliness（实效性）" class="md-nav__link">
+    Timeliness（实效性）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anomaly-detection" title="Anomaly detection（异常检测）" class="md-nav__link">
+    Anomaly detection（异常检测）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#validity" title="Validity（有效性）" class="md-nav__link">
+    Validity（有效性）
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -588,15 +684,29 @@
                 
                 <h1 id="data-quality">数据质量（Data Quality）<a class="headerlink" href="#data-quality" title="Permanent link">&para;</a></h1>
 <h2 id="measure-model">Measure Model<a class="headerlink" href="#measure-model" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Accuracy（准确性）- Does data reflect the real-world objects or a verifiable source</li>
-<li>Profiling（统计）- Apply statistical analysis and assessment of data values within a dataset for consistency, uniqueness and logic</li>
-<li>Completeness（完整性）- Is all necessary data present</li>
-<li>Timeliness（实时性）- Is the data available at the time needed</li>
-<li>Anomaly detection（异常检测）- Pre-built algorithm functions for the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset</li>
-<li>Validity（有效性）- Are all data values within the data domains specified by the business</li>
-</ol>
+<h3 id="accuracy">Accuracy（准确性）<a class="headerlink" href="#accuracy" title="Permanent link">&para;</a></h3>
+<p>Do data objects accurately represent the “real-world” values they are expected to model?</p>
+<p>Incorrect attribute of selling items across several systems can impact operational and analytical applications. </p>
+<p>方案：对比数据是否一致，通过维度约减、数据范围及数据分组提升性能</p>
+<h3 id="profiling">Profiling（统计信息）<a class="headerlink" href="#profiling" title="Permanent link">&para;</a></h3>
+<p>Apply statistical analysis and assessment of data values within a dataset for consistency, uniqueness and logic</p>
+<p>方案：对数据基础信息进行统计分析，值域、长度、计数、基数、频率、空值率、直方图等</p>
+<h3 id="completeness">Completeness（完整性）<a class="headerlink" href="#completeness" title="Permanent link">&para;</a></h3>
+<p>Is all necessary data present</p>
+<p>方案：检查数据的完整性，基于统计信息或是文件元数据</p>
+<h3 id="timeliness">Timeliness（实效性）<a class="headerlink" href="#timeliness" title="Permanent link">&para;</a></h3>
+<p>Is the data available at the time needed</p>
+<p>方案：基于文件、数据、任务时间等</p>
+<h3 id="anomaly-detection">Anomaly detection（异常检测）<a class="headerlink" href="#anomaly-detection" title="Permanent link">&para;</a></h3>
+<p>Pre-built algorithm functions for the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset</p>
+<p>方案：基于统计信息、异常检测、时间序列分析等</p>
+<h3 id="validity">Validity（有效性）<a class="headerlink" href="#validity" title="Permanent link">&para;</a></h3>
+<p>Are all data values within the data domains specified by the business</p>
+<p>方案：基于统计信息、自定义规则或函数</p>
 <h2 id="reference">Reference<a class="headerlink" href="#reference" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="http://griffin.apache.org">Apache Griffin: Big Data Quality Solution For Batch and Streaming</a></li>
+</ul>
                 
                   
                 
@@ -685,7 +795,7 @@
     
       <script src="../assets/javascripts/application.583bbe55.js"></script>
       
-      <script>app.initialize({version:"1.0.1",url:{base:".."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
     
     
