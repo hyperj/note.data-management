@@ -78,6 +78,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - DCMM: dcmm.md
   - 数据治理: data-governance.md
   - 数据架构: data-architecture.md
   - 数据建模与设计: data-modeling-and-design.md
