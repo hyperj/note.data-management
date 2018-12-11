@@ -1,6 +1,6 @@
 # Terminology
 
-### Concept
+### 术语
 
 - **数据管理能力（Data Management Capability）**
 
