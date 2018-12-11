@@ -2,15 +2,15 @@
 site_name: Data Management
 site_description: 数据管理（Data Management）
 site_author: HyperJ
-site_url: https://hyperj.net/docs.data-management
+site_url: https://hyperj.net/note.data-management
 
 # Repository
-repo_name: hyperj/docs.data-management
-repo_url: https://github.com/hyperj/docs.data-management
+repo_name: hyperj/note.data-management
+repo_url: https://github.com/hyperj/note.data-management
 edit_uri: blob/master/docs
 
 # Copyright
-copyright: 'Copyright &copy; 2013 - 2018 HyperJ'
+copyright: 'Copyright &copy; 2013 - 2019 HyperJ'
 
 # Configuration
 theme:
