@@ -4,9 +4,19 @@
 
 ### 概念模型（Conceptual Data Model）
 
+以数据实体及其之间的关系为基本构成单元的模型，实体名称一般采用标准的业务术语命名
+
 ### 逻辑模型（Logical Data Model）
 
+在概念模型基础上细化，以数据属性为基本构成单元
+
 ### 物理模型（Physical Data Model）
+
+墨迹模型在计算机信息系统中依托于特定实现工具的数据结构
+
+### 主题域模型（Subject Domain Model）
+
+以主题概念及其之间的关系为基本构成单元的模型，主题是对数据事物本事概念的高度抽象
 
 ## Methodology
 
@@ -19,8 +29,7 @@
 
 ### 维度模型（Dimensional Model）
 
-> 星形模型（Star Schema）
->
+> 星形模型（Star Schema）<br>
 > 雪花模型（Snowflake Schema）
 
 - 事实（Fact）
