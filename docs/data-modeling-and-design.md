@@ -22,18 +22,21 @@
 
 ### 关系模型（Relational Model）
 
-> 3NF
-
 - Entity
 - Relationship
+- 3NF
+
+> 1NF：属性（列）具有原子性，不可再分<br>
+> 2NF：记录（行）具有惟一性，主键外属性依赖于主键<br>
+> 3NF：属性没有冗余，属性不依赖于其它非主属性，消除传递依赖
 
 ### 维度模型（Dimensional Model）
 
-> 星形模型（Star Schema）<br>
-> 雪花模型（Snowflake Schema）
-
 - 事实（Fact）
 - 维度（Dimension）
+
+> 星形模型（Star Schema）<br>
+> 雪花模型（Snowflake Schema）
 
 ### Data Vault 
 
