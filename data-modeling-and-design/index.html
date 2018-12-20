@@ -825,22 +825,25 @@
 <p>以主题概念及其之间的关系为基本构成单元的模型，主题是对数据事物本事概念的高度抽象</p>
 <h2 id="methodology">Methodology<a class="headerlink" href="#methodology" title="Permanent link">&para;</a></h2>
 <h3 id="relational-model">关系模型（Relational Model）<a class="headerlink" href="#relational-model" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>3NF</p>
-</blockquote>
 <ul>
 <li>Entity</li>
 <li>Relationship</li>
+<li>3NF</li>
 </ul>
-<h3 id="dimensional-model">维度模型（Dimensional Model）<a class="headerlink" href="#dimensional-model" title="Permanent link">&para;</a></h3>
 <blockquote>
-<p>星形模型（Star Schema）<br>
-雪花模型（Snowflake Schema）</p>
+<p>1NF：属性（列）具有原子性，不可再分<br>
+2NF：记录（行）具有惟一性，主键外属性依赖于主键<br>
+3NF：属性没有冗余，属性不依赖于其它非主属性，消除传递依赖</p>
 </blockquote>
+<h3 id="dimensional-model">维度模型（Dimensional Model）<a class="headerlink" href="#dimensional-model" title="Permanent link">&para;</a></h3>
 <ul>
 <li>事实（Fact）</li>
 <li>维度（Dimension）</li>
 </ul>
+<blockquote>
+<p>星形模型（Star Schema）<br>
+雪花模型（Snowflake Schema）</p>
+</blockquote>
 <h3 id="data-vault">Data Vault<a class="headerlink" href="#data-vault" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Hub</li>
