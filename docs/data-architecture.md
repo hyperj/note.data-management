@@ -2,27 +2,27 @@
 
 ## Architecture
 
-![](assets/images/big-data-pipeline.png)
+![Architecture](assets/images/big-data-pipeline.png)
 
 ### Traditional Architecture
 
-![](assets/images/traditional-architecture.png)
+![Traditional Architecture](assets/images/traditional-architecture.png)
 
 ### Streaming Architecture
 
-![](assets/images/streaming-architecture.png)
+![Streaming Architecture](assets/images/streaming-architecture.png)
 
 ### Lambda Architecture
 
-![](assets/images/lambda-architecture.png)
+![Lambda Architecture](assets/images/lambda-architecture.png)
 
 ### Kappa Architecture
 
-![](assets/images/kappa-architecture.png)
+![Kappa Architecture](assets/images/kappa-architecture.png)
 
 ### Unified Architecture
 
-![](assets/images/unified-architecture.png)
+![Unified Architecture](assets/images/unified-architecture.png)
 
 ### IoT Architecture
 

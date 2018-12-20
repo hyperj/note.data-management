@@ -2,6 +2,8 @@
 
 数据管理能力成熟度评估模型（Data Management Capability Maturity Assessment Model）
 
+![数据管理能力成熟度模型](assets/images/dcmm01.jpg)
+
 ## 能力域和能力项
 
 | 能力域 | 能力项 |
@@ -16,6 +18,8 @@
 | 数据生命周期 | 数据需求<br>数据设计与开发<br>数据运维<br>数据退役 |
 
 ## 成熟度评估等级
+
+![成熟度评估等级](assets/images/dcmm02.jpg)
 
 - 初始级
 
@@ -36,6 +40,8 @@
 - 优化级
 
   数据被认为是组织生存和发展的基础，相关管理流程能实时优化，能在行业内进行最佳实践分享
+  
+![某通信企业评估数据能力成熟度等级分布](assets/images/dcmm03.jpg)
 
 ## Reference
 
