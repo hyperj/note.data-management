@@ -8,10 +8,17 @@
 
 ## 数据安全（Data Security）
 
-- Administration
-- Authentication/Authorization
-- Audit
-- Protection
+### 标准（Standard）
+### 策略（Strategy）
+### 管理（Administration）
+### 认证/授权（Authentication/Authorization）
+### 审计（Audit）
+
+- 过程
+- 规范
+- 合规
+
+### 保护（Protection）
 
 ## Reference
 
