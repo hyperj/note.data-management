@@ -46,4 +46,4 @@ Defining, monitoring, maintaining data integrity, and improving data quality.
 
 ## Reference
 
-* [DAMA Phoenix](http://dama-phoenix.org/)
+- [DAMA Phoenix](http://dama-phoenix.org/)
