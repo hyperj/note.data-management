@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/hyperj-black.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.6">
     
     
       
@@ -104,7 +104,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="../#data-storage-operations" tabindex="1" class="md-skip">
+      <a href="#data-storage-operations" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -404,6 +404,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#nosqlnon-relational-data-and-nosql" title="非关系型数据和NoSQL（Non-relational data and NoSQL）" class="md-nav__link">
+    非关系型数据和NoSQL（Non-relational data and NoSQL）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#reference" title="Reference" class="md-nav__link">
     Reference
   </a>
@@ -610,6 +617,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#nosqlnon-relational-data-and-nosql" title="非关系型数据和NoSQL（Non-relational data and NoSQL）" class="md-nav__link">
+    非关系型数据和NoSQL（Non-relational data and NoSQL）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#reference" title="Reference" class="md-nav__link">
     Reference
   </a>
@@ -636,7 +650,147 @@
                 
                 
                 <h1 id="data-storage-operations">数据存储与操作（Data Storage &amp; Operations）<a class="headerlink" href="#data-storage-operations" title="Permanent link">&para;</a></h1>
+<h2 id="nosqlnon-relational-data-and-nosql">非关系型数据和NoSQL（Non-relational data and NoSQL）<a class="headerlink" href="#nosqlnon-relational-data-and-nosql" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>要求</th>
+<th>文档数据</th>
+<th>列系列数据</th>
+<th>键/值数据</th>
+<th>图形数据</th>
+<th>时序数据</th>
+<th>对象数据</th>
+<th>外部索引数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>规范化</td>
+<td>非规范化</td>
+<td>非规范化</td>
+<td>非规范化</td>
+<td>规范化</td>
+<td>规范化</td>
+<td>非规范化</td>
+<td>非规范化</td>
+</tr>
+<tr>
+<td>架构</td>
+<td>基于读取的架构</td>
+<td>列系列定义基于写入，列架构基于读取</td>
+<td>基于读取的架构</td>
+<td>基于读取的架构</td>
+<td>基于读取的架构</td>
+<td>基于读取的架构</td>
+<td>基于写入的架构</td>
+</tr>
+<tr>
+<td>一致性（跨并发事务）</td>
+<td>可调式一致性，文档级别保证</td>
+<td>列系列级别保证</td>
+<td>键级别保证</td>
+<td>图形级别保证</td>
+<td>不适用</td>
+<td>不适用</td>
+<td>不适用</td>
+</tr>
+<tr>
+<td>原子性（事务范围）</td>
+<td>集合</td>
+<td>表</td>
+<td>表</td>
+<td>图形</td>
+<td>不适用</td>
+<td>对象</td>
+<td>不适用</td>
+</tr>
+<tr>
+<td>锁定策略</td>
+<td>乐观（无锁）</td>
+<td>悲观（行锁）</td>
+<td>乐观 (ETag)</td>
+<td>不适用</td>
+<td>悲观（Blob 锁）</td>
+<td>不适用</td>
+<td></td>
+</tr>
+<tr>
+<td>访问模式</td>
+<td>随机访问</td>
+<td>对高/宽数据进行聚合</td>
+<td>随机访问</td>
+<td>随机访问</td>
+<td>随机访问和聚合</td>
+<td>顺序访问</td>
+<td>随机访问</td>
+</tr>
+<tr>
+<td>索引</td>
+<td>主要和辅助索引</td>
+<td>主要和辅助索引</td>
+<td>仅主要索引</td>
+<td>主要和辅助索引</td>
+<td>主要和辅助索引</td>
+<td>仅主要索引</td>
+<td>不适用</td>
+</tr>
+<tr>
+<td>数据形状</td>
+<td>文档</td>
+<td>列系列包含列的表格</td>
+<td>键和值</td>
+<td>包含边缘和顶点的图形</td>
+<td>表格</td>
+<td>Blob 和元数据</td>
+<td>文档</td>
+</tr>
+<tr>
+<td>稀疏</td>
+<td>是</td>
+<td>是</td>
+<td>是</td>
+<td>否</td>
+<td>否</td>
+<td>不适用</td>
+<td>否</td>
+</tr>
+<tr>
+<td>宽（很多列/属性）</td>
+<td>是</td>
+<td>是</td>
+<td>否</td>
+<td>否</td>
+<td>否</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>基准大小</td>
+<td>小 (KB) 到中（低 MB）</td>
+<td>中 (MB) 到大（低 GB）</td>
+<td>小 (KB)</td>
+<td>小 (KB)</td>
+<td>小 (KB)</td>
+<td>大 (GB) 到极大 (TB)</td>
+<td>小 (KB)</td>
+</tr>
+<tr>
+<td>总体最大规模</td>
+<td>极大 (PB)</td>
+<td>极大 (PB)</td>
+<td>极大 (PB)</td>
+<td>大 (TB)</td>
+<td>大（低 TB）</td>
+<td>极大 (PB)</td>
+<td>大（低 TB）</td>
+</tr>
+</tbody>
+</table>
 <h2 id="reference">Reference<a class="headerlink" href="#reference" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data">Non-relational data and NoSQL</a></li>
+</ul>
                 
                   
                 
@@ -723,7 +877,7 @@
       
     </div>
     
-      <script src="../assets/javascripts/application.583bbe55.js"></script>
+      <script src="../assets/javascripts/application.5e60981f.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
