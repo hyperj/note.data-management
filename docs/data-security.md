@@ -15,7 +15,7 @@
 - 静态数据（Data At Rest）
 - 传输中数据（Data In Motion/Transit）
 - 使用中数据（Data In Use）
-
+ 
 ## 数据安全（Data Security）
 
 ### 标准（Standard）

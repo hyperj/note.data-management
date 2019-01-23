@@ -16,6 +16,10 @@
 
 ### Apache Metron
 
+### **Apache Gobblin**
+
+A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.
+
 ### **Apache Atlas** Data Governance and Metadata framework for Hadoop
 
 Atlas is a scalable and extensible set of core foundational governance services – enabling enterprises to effectively and efficiently meet their compliance requirements within Hadoop and allows integration with the whole enterprise data ecosystem.

@@ -22,11 +22,15 @@ Is all necessary data present
 
 方案：检查数据的完整性，基于统计信息或是文件元数据
 
+相关：异常值、元数据、链路
+
 ### Timeliness（实效性）
 
 Is the data available at the time needed
 
 方案：基于文件、数据、任务时间等
+
+相关：SLA、优先级
 
 ### Anomaly detection（异常检测）
 
@@ -34,11 +38,16 @@ Pre-built algorithm functions for the identification of items, events or observa
 
 方案：基于统计信息、异常检测、时间序列分析等
 
+相关：空值、基数、波动
+
 ### Validity（有效性）
 
 Are all data values within the data domains specified by the business
 
 方案：基于统计信息、自定义规则或函数
+
+相关：范围、波动、极值、均值、方差、特殊字符与乱码
+
 
 ## Reference
 
