@@ -4,7 +4,12 @@
 
 #### 元数据（Meta Data）
 
-> 用于描述数据的数据，描述数据及其环境数据，包括：业务元数据、技术元数据、管理元数据
+> 用于描述数据的数据，描述数据及其环境数据
+
+- 业务元数据
+- 技术元数据
+- 流程元数据
+- 管理元数据
 
 #### 元模型（Meta Model）
 
@@ -19,6 +24,8 @@
 - Resource：Namespace、Scheme、Table、Column、Data、File、Code
 - Service：Storage、Compute、Schedule
 - Audit：Talent、Group、User
+
+![Metadata Management](assets/images/metadata/metadata-management.png)
 
 ## Reference
 
