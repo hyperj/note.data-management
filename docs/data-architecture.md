@@ -2,6 +2,12 @@
 
 ## Architecture
 
+- 数据源、数据集成
+- 存储：分析型、消息系统
+- 计算：批处理、流处理
+- 调度：资源、作业
+- 业务流程
+
 ![Architecture](assets/images/data-architecture/big-data-pipeline.png)
 
 ### Traditional Architecture

@@ -38,7 +38,7 @@
 > 星形模型（Star Schema）<br>
 > 雪花模型（Snowflake Schema）
 
-### Data Vault 
+### Data Vault
 
 - Hub
 - Link
@@ -59,3 +59,5 @@
 - 效率
 
 ## Reference
+
+- [The book of data warehouse](https://github.com/dantezhao/data-warehouse)

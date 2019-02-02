@@ -16,11 +16,11 @@
 
 ### Apache Metron
 
-### **Apache Gobblin**
+### Apache Gobblin
 
 A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.
 
-### **Apache Atlas** Data Governance and Metadata framework for Hadoop
+### Apache Atlas
 
 Atlas is a scalable and extensible set of core foundational governance services – enabling enterprises to effectively and efficiently meet their compliance requirements within Hadoop and allows integration with the whole enterprise data ecosystem.
 
@@ -34,15 +34,15 @@ Apache Atlas provides open metadata management and governance capabilities for o
 * Search/Discovery
 * Security & Data Masking
 
-#### **Links**
+#### Links
 
 > [Site](http://atlas.apache.org/)、[Docs](https://atlas.apache.org/index.html)、[Repo](https://github.com/apache/atlas)
 
-### **Apache Griffin**
+### Apache Griffin
 
 Apache Griffin is a Data Quality Service platform built on Apache Hadoop and Apache Spark. It provides a framework process for defining data quality model, executing data quality measurement, automating data profiling and validation, as well as a unified data quality visualization across multiple data systems. It tries to address the data quality challenges in big data and streaming context.
 
-#### **Measure Model**
+#### Measure Model
 
 1. Accuracy（准确性）- Does data reflect the real-world objects or a verifiable source
 2. Profiling（统计）- Apply statistical analysis and assessment of data values within a dataset for consistency, uniqueness and logic
@@ -51,7 +51,7 @@ Apache Griffin is a Data Quality Service platform built on Apache Hadoop and Apa
 5. Anomaly detection（异常检测）- Pre-built algorithm functions for the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset
 6. Validity（有效性）- Are all data values within the data domains specified by the business
 
-#### **Links**
+#### Links
 
 > [Site](http://griffin.apache.org/)、[Docs](https://cwiki.apache.org/confluence/display/GRIFFIN/Apache+Griffin)、[Repo](https://github.com/apache/griffin)
 
