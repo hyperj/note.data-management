@@ -1,5 +1,7 @@
 # 参考与主数据（Reference & Master Data）
 
+![Reference and Master Data](assets/images/reference-and-master-data/reference-and-master-data.png)
+
 ## 参考数据（Reference Data）
 
 参考数据定义了数据的可能取值范围，也被称为属性值域。参考数据的正确、完备和统一是其他数据质量的保证，可大大提升业务流程和数据分析的准确性和效率。

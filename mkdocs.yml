@@ -80,7 +80,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
+  - 主页: index.md
   - DCMM: dcmm.md
   - 数据治理: data-governance.md
   - 数据架构: data-architecture.md

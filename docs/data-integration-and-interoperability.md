@@ -1,5 +1,7 @@
 # 数据集成与交换（Data Integration & Interoperability）
 
+-[Data Integration and Interoperability](assets/images/data-integration-and-interoperability/data-integration-and-interoperability.png)
+
 ## Gobblin
 
 ### Constructs
@@ -10,6 +12,11 @@
 - Fork Operator
 - Data Writer
 - Data Publisher
+
+## DataX
+
+- Job、TaskGroup、Task
+- Reader—>Channel—>Writer
 
 ## Reference
 
