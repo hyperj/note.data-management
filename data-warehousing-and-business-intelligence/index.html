@@ -211,8 +211,8 @@
         
   <li class="md-tabs__item">
     
-      <a href=".." title="Home" class="md-tabs__link md-tabs__link--active">
-        Home
+      <a href=".." title="主页" class="md-tabs__link md-tabs__link--active">
+        主页
       </a>
     
   </li>
@@ -319,8 +319,8 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="Home" class="md-nav__link">
-      Home
+    <a href=".." title="主页" class="md-nav__link">
+      主页
     </a>
   </li>
 
@@ -474,15 +474,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#source" title="Source" class="md-nav__link">
-    Source
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#stage" title="Stage" class="md-nav__link">
-    Stage
+  <a href="#source-stage" title="Source / Stage" class="md-nav__link">
+    Source / Stage
   </a>
   
 </li>
@@ -497,6 +490,20 @@
           <li class="md-nav__item">
   <a href="#dwdata-warehouse" title="DW(Data Warehouse)" class="md-nav__link">
     DW(Data Warehouse)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dimdimension" title="DIM(Dimension)" class="md-nav__link">
+    DIM(Dimension)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#appapplication" title="APP(Application)" class="md-nav__link">
+    APP(Application)
   </a>
   
 </li>
@@ -661,15 +668,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#source" title="Source" class="md-nav__link">
-    Source
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#stage" title="Stage" class="md-nav__link">
-    Stage
+  <a href="#source-stage" title="Source / Stage" class="md-nav__link">
+    Source / Stage
   </a>
   
 </li>
@@ -684,6 +684,20 @@
           <li class="md-nav__item">
   <a href="#dwdata-warehouse" title="DW(Data Warehouse)" class="md-nav__link">
     DW(Data Warehouse)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dimdimension" title="DIM(Dimension)" class="md-nav__link">
+    DIM(Dimension)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#appapplication" title="APP(Application)" class="md-nav__link">
+    APP(Application)
   </a>
   
 </li>
@@ -720,9 +734,16 @@
                 
                 
                 <h1 id="data-warehousing-business-intelligence">数据仓库与商业智能（Data Warehousing &amp; Business Intelligence）<a class="headerlink" href="#data-warehousing-business-intelligence" title="Permanent link">&para;</a></h1>
+<p><img alt="Data Warehousing and Business Intelligence" src="../assets/images/data-warehousing-and-business-intelligence/data-warehousing-and-business-intelligence.png" /></p>
 <h2 id="layer">分层（Layer）<a class="headerlink" href="#layer" title="Permanent link">&para;</a></h2>
-<h3 id="source">Source<a class="headerlink" href="#source" title="Permanent link">&para;</a></h3>
-<h3 id="stage">Stage<a class="headerlink" href="#stage" title="Permanent link">&para;</a></h3>
+<ul>
+<li>清晰数据结构：每一个数据分层都有它的作用域和职责，在使用表的时候能更方便地定位和理解</li>
+<li>减少重复开发：规范数据分层，开发一些通用的中间层数据，能够减少极大的重复计算</li>
+<li>统一数据口径：通过数据分层，提供统一的数据出口，统一对外输出的数据口径</li>
+<li>复杂问题简单化：将一个复杂的任务分解成多个步骤来完成，每一层解决特定的问题</li>
+</ul>
+<p><img alt="Data Layer" src="../assets/images/data-warehousing-and-business-intelligence/data-layer-detail.png" /></p>
+<h3 id="source-stage">Source / Stage<a class="headerlink" href="#source-stage" title="Permanent link">&para;</a></h3>
 <h3 id="odsoperational-data-store">ODS(Operational Data Store)<a class="headerlink" href="#odsoperational-data-store" title="Permanent link">&para;</a></h3>
 <h3 id="dwdata-warehouse">DW(Data Warehouse)<a class="headerlink" href="#dwdata-warehouse" title="Permanent link">&para;</a></h3>
 <ul>
@@ -730,18 +751,14 @@
 <p>DWD(Data Warehouse Detail)</p>
 </li>
 <li>
-<p>DWB(Data Warehouse Basis)</p>
+<p>DWM(Data Warehouse Middle)</p>
 </li>
 <li>
-<p>DWS(Data Warehouse Service)</p>
-</li>
-<li>
-<p>DIM(Dimension)</p>
-</li>
-<li>
-<p>DM(Data Mart)</p>
+<p>DWS / DM(Data Warehouse Service / Data Mart)</p>
 </li>
 </ul>
+<h3 id="dimdimension">DIM(Dimension)<a class="headerlink" href="#dimdimension" title="Permanent link">&para;</a></h3>
+<h3 id="appapplication">APP(Application)<a class="headerlink" href="#appapplication" title="Permanent link">&para;</a></h3>
 <h2 id="reference">Reference<a class="headerlink" href="#reference" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/dantezhao/data-warehouse">The book of data warehouse</a></li>
