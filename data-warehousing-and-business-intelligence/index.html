@@ -514,6 +514,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#lifecycle" title="Lifecycle" class="md-nav__link">
+    Lifecycle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice" title="Practice" class="md-nav__link">
+    Practice
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#design-patterns" title="Design Patterns" class="md-nav__link">
+    Design Patterns
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#reference" title="Reference" class="md-nav__link">
     Reference
   </a>
@@ -708,6 +735,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#lifecycle" title="Lifecycle" class="md-nav__link">
+    Lifecycle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice" title="Practice" class="md-nav__link">
+    Practice
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#design-patterns" title="Design Patterns" class="md-nav__link">
+    Design Patterns
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#reference" title="Reference" class="md-nav__link">
     Reference
   </a>
@@ -758,10 +812,50 @@
 </li>
 </ul>
 <h3 id="dimdimension">DIM(Dimension)<a class="headerlink" href="#dimdimension" title="Permanent link">&para;</a></h3>
+<ul>
+<li>高基数（High Cardinality）：用户、设备</li>
+<li>低基数（Low Cardinality）：城市、配置</li>
+</ul>
 <h3 id="appapplication">APP(Application)<a class="headerlink" href="#appapplication" title="Permanent link">&para;</a></h3>
+<h2 id="lifecycle">Lifecycle<a class="headerlink" href="#lifecycle" title="Permanent link">&para;</a></h2>
+<p><img alt="Kimball DW/BI Lifecycle Methodology" src="../assets/images/data-warehousing-and-business-intelligence/dw-bi-lifecycle-method.png" /></p>
+<h2 id="practice">Practice<a class="headerlink" href="#practice" title="Permanent link">&para;</a></h2>
+<ul>
+<li>明确分层的职责、边界、关系，明确模型的粒度、维度、事实</li>
+<li>底层基于数据，进行关系建模，上层基于业务，进行维度建模</li>
+<li>业务抽象、数据整合，避免不同数据口径带来的一致性问题</li>
+<li>非整合层次依赖于整合数据，禁止跨层依赖、禁止反向依赖</li>
+</ul>
+<h3 id="design-patterns">Design Patterns<a class="headerlink" href="#design-patterns" title="Permanent link">&para;</a></h3>
+<p>用设计模式原则的视角看待数仓模型设计</p>
+<ul>
+<li>
+<p>开闭原则(Open Closed Principle)：对扩展开放，对修改关闭</p>
+<p>对于变化进行扩展，对于稳定进行抽象</p>
+</li>
+<li>
+<p>里氏替换原则(Liskov Substitution Principle)：保持原始，扩展变化</p>
+<p>保持原始行为，扩展变化行为（开闭原则的一个实例）</p>
+</li>
+<li>
+<p>依赖倒置原则(Dependence Inversion Principle)：不依赖于细节，而依赖于抽象</p>
+<p>实现依赖于抽象，实现的关系依赖于抽象的关系；物理模型 -&gt; 逻辑模型 -&gt; 概念模型/领域模型 -&gt; 业务模型</p>
+</li>
+<li>
+<p>迪米特法则(Law of Demeter)：低耦合，高内聚</p>
+</li>
+<li>
+<p>单一职责原则(Single Responsibility Principle)：职责简单明确</p>
+</li>
+<li>
+<p>接口隔离原则(Interface Segregation Principle)：依赖简单明确</p>
+</li>
+</ul>
 <h2 id="reference">Reference<a class="headerlink" href="#reference" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/dantezhao/data-warehouse">The book of data warehouse</a></li>
+<li><a href="https://www.cnblogs.com/hadoopdev/category/651905.html">数据仓库（张子良）</a></li>
+<li><a href="https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dw-bi-lifecycle-method/">Kimball DW/BI Lifecycle Methodology</a></li>
 </ul>
                 
                   
