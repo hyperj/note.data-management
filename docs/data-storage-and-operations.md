@@ -1,5 +1,7 @@
 # 数据存储与操作（Data Storage & Operations）
 
+![Data Storage and Operations](assets/images/data-storage-and-operations/data-storage-and-operations.png)
+
 ## 非关系型数据和NoSQL（Non-relational data and NoSQL）
 
 | 要求 | 文档数据 | 列系列数据 | 键/值数据 | 图形数据 | 时序数据 | 对象数据 | 外部索引数据 |

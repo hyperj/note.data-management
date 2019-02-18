@@ -67,3 +67,5 @@
 - TCO(Total Cost of Ownership)：总拥有成本
 
 ## Reference
+
+- [数据管理能力成熟度评估模型(Data management capability maturity assessment model)](http://www.gb688.cn/bzgk/gb/newGbInfo?hcno=B282A7BD34CAA6E2D742E0CAB7587DBC)

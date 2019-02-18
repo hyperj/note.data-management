@@ -9,9 +9,16 @@
 > 用于描述数据的数据，描述数据及其环境数据
 
 - 业务元数据(Business)
-- 技术元数据(Technical)
-- 流程元数据(Operational)
+
+    业务名称、定义、值域、公式等
+
+- 技术/操作元数据(Technical/Operational)
+
+    模型、ETL、流程、规则等
+
 - 管理元数据(Management)
+
+    用户、角色、权限、审计等
 
 #### 元模型（Meta Model）
 
@@ -29,7 +36,7 @@
 
 - Resource：Namespace、Scheme、Table、Column、Data、File、Code
 - Service：Storage、Compute、Schedule
-- Audit：Talent、Group、User
+- Audit：Talent、Group、User、Role
 
 ## Reference
 

@@ -1,5 +1,7 @@
 # 数据建模与设计（Data Modeling & Design）
 
+![Data Modeling and Design](assets/images/data-modeling-and-design/data-modeling-and-design.png)
+
 ## Perspective
 
 ### 概念模型（Conceptual Data Model）
@@ -22,8 +24,8 @@
 
 ### 关系模型（Relational Model）
 
-- Entity
-- Relationship
+- Entity（实体）
+- Relationship（关系）
 - 3NF
 
 > 1NF：属性（列）具有原子性，不可再分<br>
@@ -40,16 +42,16 @@
 
 ### Data Vault
 
-- Hub
-- Link
-- Satellite
+- Hub（核心实体/事实）
+- Link（关联关系）
+- Satellite（从属实体/事实）
 
 ### Anchor
 
-- Anchors
-- Ties
-- Attributes
-- Knots
+- Anchors（核心实体/事实）
+- Ties（关联关系）
+- Attributes（从属实体/事实）
+- Knots（维度/码值）
 
 ## Benefit
 
@@ -61,3 +63,4 @@
 ## Reference
 
 - [The book of data warehouse](https://github.com/dantezhao/data-warehouse)
+- [数据仓库（张子良）](https://www.cnblogs.com/hadoopdev/category/651905.html)

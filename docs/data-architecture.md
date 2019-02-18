@@ -1,5 +1,7 @@
 # 数据架构（Data Architecture）
 
+![Data Architecture](assets/images/data-architecture/data-architecture.png)
+
 ## Architecture
 
 - 数据源、数据集成
@@ -8,7 +10,7 @@
 - 调度：资源、作业
 - 业务流程
 
-![Architecture](assets/images/data-architecture/big-data-pipeline.png)
+![Big Data Architecture](assets/images/data-architecture/big-data-pipeline.png)
 
 ### Traditional Architecture
 
@@ -41,3 +43,4 @@
     * [Part 3: Understanding the architectural layers of a big data solution](http://www.ibm.com/developerworks/analytics/library/bd-archpatterns3/index.html)
     * [Part 4: Understanding atomic and composite patterns for big data solutions](http://www.ibm.com/developerworks/analytics/library/bd-archpatterns4/index.html)
     * [Part 5: Apply a solution pattern to your big data problem and choose the products to implement it](http://www.ibm.com/developerworks/analytics/library/bd-archpatterns5/index.html)
+- [The Framework for Enterprise Architecture: Background, Description and Utility by: John A. Zachman](https://www.zachman.com/resources/ea-articles-reference/327-the-framework-for-enterprise-architecture-background-description-and-utility-by-john-a-zachman)
