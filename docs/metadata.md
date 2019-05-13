@@ -38,6 +38,17 @@
 - Service：Storage、Compute、Schedule
 - Audit：Talent、Group、User、Role
 
+## 元数据
+
+- 分层、主题、专题
+- 资源（库）、模型（表）、属性（字段）
+- 作业、测试、审核、运行、重导
+- 存储、计算、调度
+- DQC、SLA、生命周期
+- 血缘、影响（作业、表、字段）
+- 资源、人员、组织、角色、权限
+- 行为审计
+
 ## Reference
 
 * [Common Warehouse Metamodel](https://en.wikipedia.org/wiki/Common_warehouse_metamodel)
