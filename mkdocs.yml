@@ -81,7 +81,6 @@ markdown_extensions:
 # Page tree
 nav:
   - 主页: index.md
-  - DCMM: dcmm.md
   - 数据治理: data-governance.md
   - 数据架构: data-architecture.md
   - 数据建模与设计: data-modeling-and-design.md
@@ -93,6 +92,9 @@ nav:
   - 数据仓库与商业智能: data-warehousing-and-business-intelligence.md
   - 元数据: metadata.md
   - 数据质量: data-quality.md
+  - 专题:
+      - DCMM: dcmm.md
+      - AIOps: aiops.md
   - 实践与参考:
     - 工作与实践: work-and-practice.md
     - 项目与参考: projects-and-articles.md
