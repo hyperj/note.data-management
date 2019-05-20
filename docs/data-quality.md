@@ -6,29 +6,36 @@
 
 ### Accuracy（准确性）
 
-Do data objects accurately represent the “real-world” values they are expected to model?
+数据准确，无异常和错误
 
-Incorrect attribute of selling items across several systems can impact operational and analytical applications. 
+> Do data objects accurately represent the “real-world” values they are expected to model?<br>
+> Incorrect attribute of selling items across several systems can impact operational and analytical applications. 
 
 方案：对比数据是否一致，通过维度约减、数据范围及数据分组提升性能
 
 ### Profiling（统计信息）
 
-Apply statistical analysis and assessment of data values within a dataset for consistency, uniqueness and logic
+数据基础的统计信息
+
+> Apply statistical analysis and assessment of data values within a dataset for consistency, uniqueness and logic
 
 方案：对数据基础信息进行统计分析，值域、长度、计数、基数、频率、空值率、直方图等
 
 ### Completeness（完整性）
 
-Is all necessary data present
+数据概念完整，满足业务需要
+
+> Is all necessary data present
 
 方案：检查数据的完整性，基于统计信息或是文件元数据
 
 相关：异常值、元数据、链路
 
-### Timeliness（实效性）
+### Timeliness（时效性）
 
-Is the data available at the time needed
+数据能否按时产出
+
+> Is the data available at the time needed
 
 方案：基于文件、数据、任务时间等
 
@@ -36,7 +43,9 @@ Is the data available at the time needed
 
 ### Anomaly detection（异常检测）
 
-Pre-built algorithm functions for the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset
+数据是否合理，满足期望
+
+> Pre-built algorithm functions for the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset
 
 方案：基于统计信息、异常检测、时间序列分析等
 
@@ -44,7 +53,9 @@ Pre-built algorithm functions for the identification of items, events or observa
 
 ### Validity（有效性）
 
-Are all data values within the data domains specified by the business
+数据能满足业务约束
+
+> Are all data values within the data domains specified by the business
 
 方案：基于统计信息、自定义规则或函数
 
