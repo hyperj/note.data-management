@@ -202,14 +202,16 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href=".." title="主页" class="md-tabs__link md-tabs__link--active">
+      <a href=".." title="主页" class="md-tabs__link">
         主页
       </a>
     
@@ -239,6 +241,17 @@
         
       
         
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="./" title="专题" class="md-tabs__link md-tabs__link--active">
+          专题
+        </a>
+      
+    </li>
+  
+
       
         
   
@@ -318,70 +331,6 @@
     <a href=".." title="主页" class="md-nav__link">
       主页
     </a>
-  </li>
-
-    
-      
-      
-      
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        DCMM
-      </label>
-    
-    <a href="./" title="DCMM" class="md-nav__link md-nav__link--active">
-      DCMM
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" title="能力域和能力项" class="md-nav__link">
-    能力域和能力项
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" title="成熟度评估等级" class="md-nav__link">
-    成熟度评估等级
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reference" title="Reference" class="md-nav__link">
-    Reference
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -514,6 +463,108 @@
     <a href="../data-quality/" title="数据质量" class="md-nav__link">
       数据质量
     </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-13" type="checkbox" id="nav-13" checked>
+    
+    <label class="md-nav__link" for="nav-13">
+      专题
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-13">
+        专题
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        DCMM
+      </label>
+    
+    <a href="./" title="DCMM" class="md-nav__link md-nav__link--active">
+      DCMM
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="能力域和能力项" class="md-nav__link">
+    能力域和能力项
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="成熟度评估等级" class="md-nav__link">
+    成熟度评估等级
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference" title="Reference" class="md-nav__link">
+    Reference
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aiops/" title="AIOps" class="md-nav__link">
+      AIOps
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -757,7 +808,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href=".." title="主页" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../data-quality/" title="数据质量" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -766,19 +817,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                主页
+                数据质量
               </span>
             </div>
           </a>
         
         
-          <a href="../data-governance/" title="数据治理" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../aiops/" title="AIOps" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                数据治理
+                AIOps
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

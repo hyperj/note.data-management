@@ -239,6 +239,17 @@
         
       
         
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../dcmm/" title="专题" class="md-tabs__link">
+          专题
+        </a>
+      
+    </li>
+  
+
       
         
   
@@ -317,18 +328,6 @@
   <li class="md-nav__item">
     <a href=".." title="主页" class="md-nav__link">
       主页
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../dcmm/" title="DCMM" class="md-nav__link">
-      DCMM
     </a>
   </li>
 
@@ -515,8 +514,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#timeliness" title="Timeliness（实效性）" class="md-nav__link">
-    Timeliness（实效性）
+  <a href="#timeliness" title="Timeliness（时效性）" class="md-nav__link">
+    Timeliness（时效性）
   </a>
   
 </li>
@@ -555,6 +554,54 @@
   
 </nav>
     
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-13" type="checkbox" id="nav-13">
+    
+    <label class="md-nav__link" for="nav-13">
+      专题
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-13">
+        专题
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dcmm/" title="DCMM" class="md-nav__link">
+      DCMM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aiops/" title="AIOps" class="md-nav__link">
+      AIOps
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -692,8 +739,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#timeliness" title="Timeliness（实效性）" class="md-nav__link">
-    Timeliness（实效性）
+  <a href="#timeliness" title="Timeliness（时效性）" class="md-nav__link">
+    Timeliness（时效性）
   </a>
   
 </li>
@@ -747,26 +794,44 @@
 <p><img alt="Data Quality Management" src="../assets/images/data-quality/data-quality-management.jpg" /></p>
 <h2 id="measure-model">Measure Model<a class="headerlink" href="#measure-model" title="Permanent link">&para;</a></h2>
 <h3 id="accuracy">Accuracy（准确性）<a class="headerlink" href="#accuracy" title="Permanent link">&para;</a></h3>
-<p>Do data objects accurately represent the “real-world” values they are expected to model?</p>
-<p>Incorrect attribute of selling items across several systems can impact operational and analytical applications. </p>
+<p>数据准确，无异常和错误</p>
+<blockquote>
+<p>Do data objects accurately represent the “real-world” values they are expected to model?<br>
+Incorrect attribute of selling items across several systems can impact operational and analytical applications. </p>
+</blockquote>
 <p>方案：对比数据是否一致，通过维度约减、数据范围及数据分组提升性能</p>
 <h3 id="profiling">Profiling（统计信息）<a class="headerlink" href="#profiling" title="Permanent link">&para;</a></h3>
+<p>数据基础的统计信息</p>
+<blockquote>
 <p>Apply statistical analysis and assessment of data values within a dataset for consistency, uniqueness and logic</p>
+</blockquote>
 <p>方案：对数据基础信息进行统计分析，值域、长度、计数、基数、频率、空值率、直方图等</p>
 <h3 id="completeness">Completeness（完整性）<a class="headerlink" href="#completeness" title="Permanent link">&para;</a></h3>
+<p>数据概念完整，满足业务需要</p>
+<blockquote>
 <p>Is all necessary data present</p>
+</blockquote>
 <p>方案：检查数据的完整性，基于统计信息或是文件元数据</p>
 <p>相关：异常值、元数据、链路</p>
-<h3 id="timeliness">Timeliness（实效性）<a class="headerlink" href="#timeliness" title="Permanent link">&para;</a></h3>
+<h3 id="timeliness">Timeliness（时效性）<a class="headerlink" href="#timeliness" title="Permanent link">&para;</a></h3>
+<p>数据能否按时产出</p>
+<blockquote>
 <p>Is the data available at the time needed</p>
+</blockquote>
 <p>方案：基于文件、数据、任务时间等</p>
 <p>相关：SLA、优先级</p>
 <h3 id="anomaly-detection">Anomaly detection（异常检测）<a class="headerlink" href="#anomaly-detection" title="Permanent link">&para;</a></h3>
+<p>数据是否合理，满足期望</p>
+<blockquote>
 <p>Pre-built algorithm functions for the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset</p>
+</blockquote>
 <p>方案：基于统计信息、异常检测、时间序列分析等</p>
 <p>相关：空值、基数、波动</p>
 <h3 id="validity">Validity（有效性）<a class="headerlink" href="#validity" title="Permanent link">&para;</a></h3>
+<p>数据能满足业务约束</p>
+<blockquote>
 <p>Are all data values within the data domains specified by the business</p>
+</blockquote>
 <p>方案：基于统计信息、自定义规则或函数</p>
 <p>相关：范围、波动、极值、均值、方差、特殊字符与乱码</p>
 <h2 id="reference">Reference<a class="headerlink" href="#reference" title="Permanent link">&para;</a></h2>
@@ -808,13 +873,13 @@
           </a>
         
         
-          <a href="../work-and-practice/" title="工作与实践" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../dcmm/" title="DCMM" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                工作与实践
+                DCMM
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
