@@ -1,7 +1,5 @@
 # 数据建模与设计（Data Modeling & Design）
 
-![Data Modeling and Design](assets/images/data-modeling-and-design/data-modeling-and-design.png)
-
 ## Perspective
 
 ### 概念模型（Conceptual Data Model）

@@ -1,7 +1,5 @@
 # 数据仓库与商业智能（Data Warehousing & Business Intelligence）
 
-![Data Warehousing and Business Intelligence](assets/images/data-warehousing-and-business-intelligence/data-warehousing-and-business-intelligence.png)
-
 ## 分层（Layer）
 
 - 清晰数据结构：每一个数据分层都有它的作用域和职责，在使用表的时候能更方便地定位和理解

@@ -1,7 +1,5 @@
 # 元数据（Metadata）
 
-![Metadata Management](assets/images/metadata/metadata-management.png)
-
 ## 概念（Concept）
 
 #### 元数据（Meta Data）

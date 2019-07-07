@@ -1,7 +1,5 @@
 # 数据架构（Data Architecture）
 
-![Data Architecture](assets/images/data-architecture/data-architecture.png)
-
 ## Architecture
 
 - 数据源、数据集成

@@ -1,7 +1,5 @@
 # 数据质量（Data Quality）
 
-![Data Quality Management](assets/images/data-quality/data-quality-management.jpg)
-
 ## Measure Model
 
 ### Accuracy（准确性）

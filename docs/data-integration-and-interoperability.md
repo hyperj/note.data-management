@@ -1,7 +1,5 @@
 # 数据集成与交换（Data Integration & Interoperability）
 
-![Data Integration and Interoperability](assets/images/data-integration-and-interoperability/data-integration-and-interoperability.png)
-
 ## Gobblin
 
 ### Constructs
