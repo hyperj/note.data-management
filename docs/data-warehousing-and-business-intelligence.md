@@ -1,5 +1,14 @@
 # 数据仓库与商业智能（Data Warehousing & Business Intelligence）
 
+## 设计（Design）
+
+- Inmon：CIF，3NF、ER
+- Kimball：Bus，Fact、Dimension
+- Data Vault：4NF
+- Anchor：6NF
+
+面向业务及数据使用 ER模型，面向需求及分析使用 维度模型
+
 ## 分层（Layer）
 
 - 清晰数据结构：每一个数据分层都有它的作用域和职责，在使用表的时候能更方便地定位和理解
