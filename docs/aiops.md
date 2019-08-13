@@ -62,3 +62,4 @@
 ## Reference
 
 - [异常检测的N种方法,阿里工程师都盘出来了]( http://t.cn/E99BXaG)
+- [《智能运维：从0搭建大规模分布式 AIOps 系统》](https://book.douban.com/subject/30275906/)
