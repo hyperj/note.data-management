@@ -1,5 +1,14 @@
 # 数据仓库与商业智能（Data Warehousing & Business Intelligence）
 
+## 架构（Architecture）
+
+- 独立数据集市架构（Independent data mart architecture）：信息孤岛问题
+- 联邦数据仓库架构（Federated data warehouse architecture）：数据不一致问题
+- 集中架构（Centralized architecture）：EDW
+- 集线架构（Hub architecture）：CDW、Hub、CIF
+- 总线架构（Bus architecture）：DMR、Bus、SOA
+- 复合架构（Composite architecture）：上层采用 Hub，下层采用 Bus
+
 ## 设计（Design）
 
 总结：面向业务及数据使用 ER模型，面向需求及分析使用 维度模型
@@ -82,4 +91,5 @@
 
 - [The book of data warehouse](https://github.com/dantezhao/data-warehouse)
 - [数据仓库（张子良）](https://www.cnblogs.com/hadoopdev/category/651905.html)
+- [谈谈数据仓库架构的发展和分类](https://groups.google.com/forum/#!topic/ttnn/na-Fmm8QHNI/discussion)
 - [Kimball DW/BI Lifecycle Methodology](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dw-bi-lifecycle-method/)
