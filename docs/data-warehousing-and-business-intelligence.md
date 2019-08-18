@@ -1,5 +1,9 @@
 # 数据仓库与商业智能（Data Warehousing & Business Intelligence）
 
+## 数据仓库 
+
+面向主题的、集成的、随时间变化的、非易失的数据集合，用于支持管理者的决策过程
+
 ## 架构（Architecture）
 
 - 独立数据集市架构（Independent data mart architecture）：信息孤岛问题
@@ -47,7 +51,19 @@
 
 - DWS / DM(Data Warehouse Service / Data Mart)
 
+### Fact
+
+- 对业务过程事件的度量，基本通过数值表示，与声明的粒度保持一致
+- 可加、半可加、不可加
+
 ### DIM(Dimension)
+
+- 层次维度
+- 退化维度
+- 合并维度
+- 分段维度
+
+**基数（Cardinality）**
 
 - 高基数（High Cardinality）：用户、设备
 - 低基数（Low Cardinality）：城市、配置
