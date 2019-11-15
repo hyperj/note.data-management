@@ -15,22 +15,46 @@
 
 ## 设计（Design）
 
+### 结构化
+
 总结：面向业务及数据使用 ER模型，面向需求及分析使用 维度模型
 
-- Inmon：CIF，3NF、ER
+#### Inmon：CIF，3NF、ER
 
-优势：数据是集成的、整合的；业务实体及流程描述清晰；灵活，能适应变化；冗余低，ETL加工明确，可以避免更新异常；
-缺点：调研、建模、实现、使用复杂；交付周期长；需要建立数据集市，使用更多存储和计算；
+- 优势：数据是集成的、整合的；业务实体及流程描述清晰；灵活，能适应变化；冗余低，ETL加工明确，可以避免更新异常
+- 缺点：调研、建模、实现、使用复杂；交付周期长；需要建立数据集市，使用更多存储和计算
 
-- Kimball：Bus，Fact、Dimension
+#### Kimball：Bus，Fact、Dimension
 
-优势：星型模型，快速建模、实现、交付；符合数据库、OLAP特性，性能好；一致维度和指标，便于分析和考核
-缺点：依赖多个事实，使得就绪延迟；冗余数据，使得更新困难；只能支持部分业务及需求，扩展会变得越来越复杂；
+- 优势：星型模型，快速建模、实现、交付；符合数据库、OLAP特性，性能好；一致维度和指标，便于分析和考核
+- 缺点：依赖多个事实，使得就绪延迟；冗余数据，使得更新困难；只能支持部分业务及需求，扩展会变得越来越复杂
 
-- Data Vault：4NF
-- Anchor：6NF
+**建模过程**
+
+1. 选择业务过程
+2. 声明粒度
+3. 确定维度
+4. 确定事实
+
+#### Data Vault：4NF
+#### Anchor：6NF
+
+### 其他
+
+#### KV数据
+
+Reversing、Salting、Hashing
+
+#### 图数据
+
+1. 选择领域
+2. 确定实体
+3. 确定关系
+4. 确定属性
 
 ## 分层（Layer）
+
+ODS(Operational Data Store)、DW(Data Warehouse)、APP(Application)
 
 - 清晰数据结构：每一个数据分层都有它的作用域和职责，在使用表的时候能更方便地定位和理解
 - 减少重复开发：规范数据分层，开发一些通用的中间层数据，能够减少极大的重复计算
@@ -47,16 +71,16 @@
 
 - DWD(Data Warehouse Detail)
 
-- DWM(Data Warehouse Middle)
+- DWS(Data Warehouse Service)
 
-- DWS / DM(Data Warehouse Service / Data Mart)
+- DWM(Data Warehouse Market)
 
-### Fact
+#### Fact
 
 - 对业务过程事件的度量，基本通过数值表示，与声明的粒度保持一致
 - 可加、半可加、不可加
 
-### DIM(Dimension)
+#### DIM(Dimension)
 
 - 层次维度
 - 退化维度
