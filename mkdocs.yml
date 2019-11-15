@@ -95,6 +95,7 @@ nav:
   - 专题:
       - DCMM: dcmm.md
       - AIOps: aiops.md
+      - KG: kg.md
   - 实践与参考:
     - 工作与实践: work-and-practice.md
     - 项目与参考: projects-and-articles.md
